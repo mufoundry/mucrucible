@@ -1,0 +1,9 @@
+[
+  {
+    "label": "MuForge: Game",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "module": "muforge.game",
+    "cwd": "$ZED_WORKTREE_ROOT",
+  },
+]
