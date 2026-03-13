@@ -9,3 +9,11 @@ class = "muforge.portal:Application"
 # It's perfectly okay to use localhost or 127.0.0.1 here if
 # the game's running on the same machine as the portal.
 game_url = "https://127.0.0.1:8000"
+
+[portal.httpx]
+# Config for the HTTPX client used by Portal Connections.
+# Probably no need to change this.
+http2 = true
+limits = {max_connections = 10, max_keepalive_connections = 10}
+verify = true
+follow_redirects = true
