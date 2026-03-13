@@ -6,4 +6,11 @@
     "module": "muforge.game",
     "cwd": "$ZED_WORKTREE_ROOT",
   },
+  {
+    "label": "MuForge: Portal",
+    "adapter": "Debugpy",
+    "request": "launch",
+    "module": "muforge.portal",
+    "cwd": "$ZED_WORKTREE_ROOT",
+  },
 ]
